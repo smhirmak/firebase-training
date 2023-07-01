@@ -98,7 +98,7 @@ export default function Home() {
         ))}
       </div>
       <div>
-        <input type="file" accept="image/*" onChange={(e) => setFileUpload(e.target.files[0])} />
+        <input type="file" accept="image/*" onChange={(e) => setFileUpload(e.target.files![0])} />
         <button onClick={uploadFile}>Upload File</button>
       </div>
     </div>
